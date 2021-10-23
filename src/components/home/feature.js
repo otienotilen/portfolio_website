@@ -1,9 +1,9 @@
 import React from 'react';
 
-import image1 from '../../assets/images/modern-design.jpg';
-import image2 from '../../assets/images/clean-design.jpg';
-import image3 from '../../assets/images/great-support.jpg';
-import image4 from '../../assets/images/easy-customise.jpg';
+import image1 from '../../assets/images/portfoliopicture.PNG';
+
+import image3 from '../../assets/images/music.PNG';
+import image4 from '../../assets/images/expense.PNG';
 
 
 
@@ -21,33 +21,27 @@ function AppFeature() {
                     <p>These are the top projects have worked on.</p>
                 </div>
                 <Row gutter={[16, 16]}>
-                <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen"><Card
+                <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen/portfolio_website"><Card
                
                     hoverable
-                    cover={<img alt="Modern Design" src={image1}/>}
+                    cover={<img alt="My Portfilio Web App" src={image1}/>}
                 > 
-                    <Meta title="My Portfilio Web App" description="www.instagram.com"/>
+                    <Meta title="My Portfilio Web App" description="React js design of my portfolio website"/>
                 </Card></a>
                   </Col>
-                   <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen"><Card
+                  
+                   <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen/music-player"><Card
                     hoverable
-                    cover={<img alt="clean design" src={image2}/>}
+                    cover={<img alt="Music Player Mobile App" src={image3}/>}
                 >
-                    <Meta title="E-Commerce Web App" description="www.instagram.com"/>
+                    <Meta title="Music Player Mobile App" description="Designed using java"/>
                 </Card></a>
                   </Col>
-                   <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen"><Card
+                   <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen/Expense-Tracker-App"><Card
                     hoverable
-                    cover={<img alt="great support" src={image3}/>}
+                    cover={<img alt="Expense Tracker Web App" src={image4}/>}
                 >
-                    <Meta title="Music Player Mobile App" description="www.instagram.com"/>
-                </Card></a>
-                  </Col>
-                   <Col xs={{ span: 24 }}sm={{ span: 12 }} md={{ span: 8 }}><a href="https://github.com/otienotilen"><Card
-                    hoverable
-                    cover={<img alt="easy customise" src={image4}/>}
-                >
-                    <Meta title="Expense Tracker Web App" description="www.instagram.com"/>
+                    <Meta title="Expense Tracker Web App" description="Designed using react js to tract your daily expenses"/>
                 </Card></a>
                   </Col>
                    
