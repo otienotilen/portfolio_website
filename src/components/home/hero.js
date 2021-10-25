@@ -18,9 +18,7 @@ function AppHero() {
                     return(
                         <div className="container-fluid" key={item.key}>
                         <div className="content">
-                            <div className='profile-picture'>
-                    <div className='profile-picture-background'></div>
-                </div>
+                      
                             <h6>{item.title}</h6>
                             <p>{item.content}</p>
                             <div className ="btnHolder">
